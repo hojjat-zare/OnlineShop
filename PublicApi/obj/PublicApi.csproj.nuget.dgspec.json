@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {}
+    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {
+    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
+        "projectUniqueName": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
         "projectName": "PublicApi",
-        "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
+        "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
         "packagesPath": "C:\\Users\\hojjat\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\obj\\",
+        "outputPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hojjat\\AppData\\Roaming\\NuGet\\NuGet.Config",
