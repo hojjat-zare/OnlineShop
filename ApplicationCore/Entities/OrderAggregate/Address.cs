@@ -1,19 +1,20 @@
 namespace ApplicationCore.Entities.OrderAggregate;
 
-public class OrderAddress // ValueObject
+public class OrderAddress
 {
-    #pragma warning disable CS8618 // Required by Entity Framework
     private OrderAddress() { }
-    public string CompleteAddress { get; set; }
-    public string Street { get; private set; }
+    public int OrderId { get; set; }
+    public Order Order { get; set; }
+    public string CompleteAddress { get; set; } = null!;
+    public string Street { get; private set; }= null!;
 
-    public string City { get; private set; }
+    public string City { get; private set; }= null!;
 
-    public string State { get; private set; }
+    public string State { get; private set; }= null!;
 
-    public string Country { get; private set; }
+    public string Country { get; private set; }= null!;
 
-    public string ZipCode { get; private set; }
+    public string ZipCode { get; private set; }= null!;
     public OrderAddress(string street, string city, string state, string country, string zipcode)
     {
         Street = street;

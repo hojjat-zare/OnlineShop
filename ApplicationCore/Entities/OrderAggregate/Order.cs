@@ -21,7 +21,7 @@ public class Order : BaseEntity, IAggregateRoot
 
     public string BuyerId { get; private set; }
     public DateTimeOffset OrderDate { get; private set; } = DateTimeOffset.Now;
-    public OrderAddress ShipToAddress { get; private set; }
+    public OrderAddress? ShipToAddress { get; private set; }
 
     // DDD Patterns comment
     // Using a private collection field, better for DDD Aggregate's encapsulation
