@@ -20,7 +20,7 @@ public class Order : BaseEntity, IAggregateRoot
     }
 
     public string BuyerId { get; private set; }
-    public DateTimeOffset OrderDate { get; private set; } = DateTimeOffset.Now;
+    public DateTime OrderDate { get; private set; } = DateTime.Now;
     public OrderAddress? ShipToAddress { get; private set; }
 
     // DDD Patterns comment

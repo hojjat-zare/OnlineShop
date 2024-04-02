@@ -4,6 +4,152 @@
     "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {}
   },
   "projects": {
+    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
+        "projectName": "ApplicationCore",
+        "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\hojjat\\.nuget\\packages\\",
+        "outputPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hojjat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hojjat\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hojjat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +173,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
+              },
+              "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

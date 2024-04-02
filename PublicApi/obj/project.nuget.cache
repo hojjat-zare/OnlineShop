@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vvDy/gsFwqu0S/Z7srmwy2WVFaP+TBisF7acQ7gQuzGbetM1wGPk0/fkB5afQn+m6na8yZZ1a7iUkFB7TenI4Q==",
+  "dgSpecHash": "daToUANXFJQ26WNv6yqDJBwYnJ05C1wEAdkW5BRgCUQLW9U7rde6c+n7ojWDkNshda/ij/6XJaRYZPb19gKBlA==",
   "success": true,
   "projectFilePath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hojjat\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\hojjat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hojjat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\hojjat\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

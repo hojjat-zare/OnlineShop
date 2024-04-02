@@ -260,3 +260,5 @@ pub/
 .devcontainer
 
 .azure
+
+PublicApi/obj/project.nuget.cache
