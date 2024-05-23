@@ -1,5 +1,6 @@
 using ApplicationCore.Entities;
 using ApplicationCore.Entities.BasketAggregate;
+using ApplicationCore.Entities.Catalog;
 using ApplicationCore.Entities.OrderAggregate;
 using Microsoft.EntityFrameworkCore;
 
@@ -34,7 +35,21 @@ public static class CatalogContextConfig
             entity.Property(e => e.Name).HasMaxLength(50);
             entity.Property(e => e.PictureUri).HasMaxLength(500);
             entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+            entity.HasMany(e => e.Contents)
+            .WithOne(c => c.CatalogItem);
+
         });
+
+        modelBuilder.Entity<CatalogItemContent>(entity =>
+        {
+            entity.ToTable("CatalogContent");
+            entity.HasKey(e => e.Id).IsClustered(false);
+            entity.HasIndex(e => e.CatalogItemId,"ID_CatalogContent_CatalogItemId")
+            .IsClustered(true);
+            entity.Property(e => e.Name).HasMaxLength(100);
+        });
+
+
 
         modelBuilder.Entity<CatalogBrand>(entity =>
         {

@@ -41,6 +41,7 @@ CREATE TABLE dbo.[Catalog](
 	IsAvailable bit NOT NULL,
 	CatalogTypeId int NOT NULL,
 	CatalogBrandId int NOT NULL,
+	StockCount bigint NULL,
  CONSTRAINT PK_Catalog PRIMARY KEY CLUSTERED (Id) ON FGEntities,
  CONSTRAINT FK_Catalog_CatalogBrands_CatalogBrandId FOREIGN KEY(CatalogBrandId) REFERENCES dbo.CatalogBrands (Id) ON DELETE CASCADE,
  CONSTRAINT FK_Catalog_CatalogTypes_CatalogTypeId FOREIGN KEY(CatalogTypeId) REFERENCES dbo.CatalogTypes (Id) ON DELETE CASCADE

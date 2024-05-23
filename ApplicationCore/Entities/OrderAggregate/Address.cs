@@ -2,6 +2,7 @@ namespace ApplicationCore.Entities.OrderAggregate;
 
 public class OrderAddress
 {
+    #pragma warning disable CS8618 // Required by Entity Framework
     private OrderAddress() { }
     public int OrderId { get; set; }
     public Order Order { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {}
+    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {}
   },
   "projects": {
-    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\hojjat\\.nuget\\packages\\",
-        "outputPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\obj\\",
+        "outputPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hojjat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
+              "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {
+    "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
+        "projectUniqueName": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
         "projectName": "PublicApi",
-        "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
+        "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\PublicApi.csproj",
         "packagesPath": "C:\\Users\\hojjat\\.nuget\\packages\\",
-        "outputPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\obj\\",
+        "outputPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\PublicApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hojjat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,8 +174,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "e:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
+              "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\ApplicationCore\\ApplicationCore.csproj"
               },
               "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "E:\\Projects\\CleanArchitecture\\MyCleanProject\\Eshop\\Infrastructure\\Infrastructure.csproj"
@@ -199,6 +199,12 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
             },

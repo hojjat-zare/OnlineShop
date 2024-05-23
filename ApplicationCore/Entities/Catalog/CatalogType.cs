@@ -1,6 +1,6 @@
 using ApplicationCore.Interfaces;
 
-namespace ApplicationCore.Entities;
+namespace ApplicationCore.Entities.Catalog;
 
 public class CatalogType : BaseEntity, IAggregateRoot
 {

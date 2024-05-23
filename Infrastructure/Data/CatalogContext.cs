@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ApplicationCore.Entities;
 using ApplicationCore.Entities.BasketAggregate;
 using ApplicationCore.Entities.BuyerAggregate;
+using ApplicationCore.Entities.Catalog;
 using ApplicationCore.Entities.OrderAggregate;
 using Infrastructure.Data.Config;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,8 @@ public class CatalogContext : DbContext
     public virtual DbSet<Basket> Baskets { get; set; }
     public virtual DbSet<BasketItem> BasketItems { get; set; }
     public virtual DbSet<CatalogItem> CatalogItems { get; set; }
+    public virtual DbSet<PhysicalCatalogItem> PhysicalCatalogItems { get; set; }
+    public virtual DbSet<CatalogItemContent> CatalogItemContents { get; set; }
     public virtual DbSet<CatalogBrand> CatalogBrands { get; set; }
     public virtual DbSet<CatalogType> CatalogTypes { get; set; }
     public virtual DbSet<Order> Orders { get; set; }
